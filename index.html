@@ -5,8 +5,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Web D Project</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="options.css"> <!-- Add this line to link options.css -->
 </head>
 <body>
+    <!-- Three-dot Options Menu -->
+    <div class="options-menu-container">
+        <div class="options-menu-icon">
+            &#x2022;&#x2022;&#x2022; <!-- This is the three-dot icon -->
+        </div>
+        <div class="options-menu-content">
+            <a href="#">Profile</a>
+            <a href="#">Settings</a>
+            <a href="#">About Us</a>
+            <a href="#">Log Out</a>
+        </div>
+    </div>
+
     <div class="expresit">ExpresSit</div>
     <div class="disclaimer">hiding isn't allowed</div>
     <div class="neon-light"></div>
@@ -75,13 +89,14 @@
         <div class="window-title">Find My Match</div>
     </div>
 
-    <script src="script.js"></script>
-<!-- Container for the blue outlined box -->
-<div class="blue-box-container">
-    <div class="blue-box">
-        ExpresSit is an interaction platform where you can communicate with any person of mood same as yours, and that too around the globe. Share your experiences, take theirs too and  <span class="highlighted-text">Always ExpresSit, because hiding isn't allowed.</span>Try it now.
+    <!-- Blue Box Container -->
+    <div class="blue-box-container">
+        <div class="blue-box">
+            ExpresSit is an interaction platform where you can communicate with any person of mood same as yours, and that too around the globe. Share your experiences, take theirs too and  <span class="highlighted-text">Always ExpresSit, because hiding isn't allowed.</span> Try it now.
+        </div>
     </div>
-</div>
-    
+
+    <script src="script.js"></script>
+    <script src="options.js"></script> <!-- Add this line to link options.js -->
 </body>
 </html>

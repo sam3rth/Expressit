@@ -1,0 +1,52 @@
+/* General body styles */
+body {
+    background-color: #f5f5f5;
+    margin: 20px;
+    padding: 0;
+    position: relative;
+}
+
+/* Three-dot options menu styles */
+.options-menu-container {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    font-family: Arial, sans-serif;
+}
+
+.options-menu-icon {
+    font-size: 30px;
+    cursor: pointer;
+    color: darkblue;
+    transition: color 0.3s;
+}
+
+.options-menu-icon:hover {
+    color: navy;
+}
+
+.options-menu-content {
+    display: none;
+    position: absolute;
+    top: 40px;
+    left: 0;
+    background-color: white;
+    border: 2px solid darkblue;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+}
+
+.options-menu-content a {
+    display: block;
+    color: darkblue;
+    font-weight: bold;
+    padding: 10px 20px;
+    text-decoration: none;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.options-menu-content a:hover {
+    background-color: darkblue;
+    color: white;
+}
